@@ -1,0 +1,19 @@
+body {
+    background-color:#141d26;
+    color: white;
+}
+
+input {
+    line-height: 30px;
+    background-color: #253341;
+    color: white;
+    border-width: 0px;
+
+    border-top-color: #00000000;
+    border-bottom-color: #00000000;
+    border-left-color: #00000000;
+    border-right-color: #00000000;
+
+    outline-color: #00000000;
+    outline-width: 0px;
+}
