@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<title>Hello, world!</title>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/> </svg>
+    </a>
+    
+    <div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+            <div class="offcanvas-header">
+                <button type="button" class="btn btn-secondary btn-lg rounded-circle">
+                    <img src="https://www.apacph.org/wp/wp-content/uploads/2014/03/Twitter-Logo-New-.png" height=32 width=32>
+                </button> <br>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                
+                <h5><b>
+                    
+                    <!-- Home button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/> <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                        </svg>
+                        &nbsp&nbsp&nbsp&nbspHome
+                    </button> <br>
+                
+                    <!-- Explore button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg> 
+                        &nbsp&nbsp&nbsp&nbspExplore
+                    </button> <br>
+                
+                    <!-- Notifications button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16"> <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                        &nbsp&nbsp&nbsp&nbspNotifications
+                    </button> <br>
+                    
+                    <!-- Messages button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                        </svg>
+                        &nbsp&nbsp&nbsp&nbspMessages
+                    </button> <br>
+                
+                    <!-- Bookmarks button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16"> <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                        </svg>
+                        &nbsp&nbsp&nbsp&nbspBookmarks
+                    </button> <br>
+                
+                    <!-- Lists button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16"> <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/> <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                        </svg>
+                        &nbsp&nbsp&nbsp&nbspLists
+                    </button> <br>
+                
+                    <!-- Profile button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"> <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                        &nbsp&nbsp&nbsp&nbspProfile
+                    </button> <br>
+                
+                    <!-- More button -->
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg>
+                        &nbsp&nbsp&nbsp&nbspMore
+                    </button> <br>
+                
+                </b></h5>
+
+                <!-- MASSIVE TWEET BUTTON -->
+                <button type="button" class="btn tweetButton btn-lg rounded-pill">Tweet</button>
+
+                <!-- Separator -->
+                <hr class="rounded">
+
+                <!-- Search twitter -->
+                <div class="container rounded-pill searchTwitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search d-sm-inline d-none" style="padding-bottom: 2px; margin-right: 20px; margin-left: 10px" viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> . </svg>
+                    <input type="text" class="rounded-pill" placeholder="Search Twitter">
+                </div>
+
+                <!-- Trending bar -->
+                <div class="container rounded-full sidebar-bars">
+                    <h5><b>Trends for you</b></h5>
+
+                    <!-- Trending item Number 1 -->
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 text-start trending-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 style="line-height: 0.85;"><small>Trending in Teufort</small></h6>
+                                <h6 style="line-height: 0.85;"><b>Hop on tf2</b></h5>
+                                <h6 style="line-height: 0.85;"><small>102.5k Tweets</small></h6>
+                            </div>
+                            <div class="col-2">
+                                <svg type="button" xmlns="http://www.w3.org/2000/svg" width=32 height=32 fill="white" class="btn btn-secondary rounded-circle bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trending item Number 2 -->
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 text-start trending-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 style="line-height: 0.85;"><small>Trending in Teufort</small></h6>
+                                <h6 style="line-height: 0.85;"><b>Hop on tf2</b></h5>
+                                <h6 style="line-height: 0.85;"><small>102.5k Tweets</small></h6>
+                            </div>
+                            <div class="col-2">
+                                <svg type="button" xmlns="http://www.w3.org/2000/svg" width=32 height=32 fill="white" class="btn btn-secondary rounded-circle bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trending item Number 3 -->
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 text-start trending-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 style="line-height: 0.85;"><small>Trending in Teufort</small></h6>
+                                <h6 style="line-height: 0.85;"><b>Hop on tf2</b></h5>
+                                <h6 style="line-height: 0.85;"><small>102.5k Tweets</small></h6>
+                            </div>
+                            <div class="col-2">
+                                <svg type="button" xmlns="http://www.w3.org/2000/svg" width=32 height=32 fill="white" class="btn btn-secondary rounded-circle bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trending item Number 4 -->
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 text-start trending-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 style="line-height: 0.85;"><small>Trending in Teufort</small></h6>
+                                <h6 style="line-height: 0.85;"><b>Hop on tf2</b></h5>
+                                <h6 style="line-height: 0.85;"><small>102.5k Tweets</small></h6>
+                            </div>
+                            <div class="col-2">
+                                <svg type="button" xmlns="http://www.w3.org/2000/svg" width=32 height=32 fill="white" class="btn btn-secondary rounded-circle bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trending item Number 5 -->
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 text-start trending-item">
+                        <div class="row">
+                            <div class="col-10">
+                                <h6 style="line-height: 0.85;"><small>Trending in Teufort</small></h6>
+                                <h6 style="line-height: 0.85;"><b>Hop on tf2</b></h5>
+                                <h6 style="line-height: 0.85;"><small>102.5k Tweets</small></h6>
+                            </div>
+                            <div class="col-2">
+                                <svg type="button" xmlns="http://www.w3.org/2000/svg" width=32 height=32 fill="white" class="btn btn-secondary rounded-circle bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Show more trending text -->
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 rounded-bottom text-start more-button">
+                        <div class="text-start">
+                            <h6>Show More</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- People to follow tab -->
+                <div class="container rounded-full sidebar-bars">
+                    <h5><b>Who to Follow</b></h5>
+
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 text-start profile-item">
+                        <div class="row">
+                            <div class="col-2 profile-pic">
+                                <img class="rounded-circle" src="https://cdn.discordapp.com/avatars/301909901951762442/cb635bae837dbb12472e1b9d518b94b7.png?size=4096" width="100%">
+                            </div>
+                            <div class="col-8 profile-text">
+                                <h6 style="line-height: 0.0;"><b>notCono</b></h6>
+                                <h6><small>@therealnotcono</small></h6>
+                            </div>
+                            <div class="col-2 profile text">
+                                <svg type="button" xmlns="http://www.w3.org/2000/svg" width=32 height=32 fill="white" class="btn btn-secondary rounded-circle bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div type="button" class="container-fluid btn btn-secondary rounded-0 text-start profile-item">
+                        <div class="row">
+                            <div class="col-2 profile-pic">
+                                <img class="rounded-circle" src="https://cdn.discordapp.com/attachments/488827623234076674/936112282918866994/35f6716adc65383508eca7cfda5b5594.png" width="100%">
+                            </div>
+                            <div class="col-8 profile-text">
+                                <h6 style="line-height: 0.0;"><b>JOE</b></h6>
+                                <h6><small>@ghostunderyourbed</small></h6>
+                            </div>
+                            <div class="col-2 profile text">
+                                <svg type="button" xmlns="http://www.w3.org/2000/svg" width=32 height=32 fill="white" class="btn btn-secondary rounded-circle bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

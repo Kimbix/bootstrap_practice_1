@@ -1,6 +1,7 @@
 body {
     background-color:#141d26;
     color: white;
+    padding: 8px;
 }
 
 input {
@@ -16,4 +17,193 @@ input {
 
     outline-color: #00000000;
     outline-width: 0px;
+}
+
+small {
+    color: lightgray;
+}
+
+.offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 400px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #141d26;
+    transform: translateX(-100%);
+}
+
+.offcanvas-header {
+    background-color: #141d26;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 400px;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    background-color: #141d26;
+    transform: translateX(100%);
+}
+
+/* SECONDARY BUTTON COLORS */
+
+.btn-secondary {
+    color: #fff;
+    background-color: #00000000;
+    border-color: #00000000;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #ffffff11;
+    border-color: #00000000;
+}
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+    color: #fff;
+    background-color: #ffffff22;
+    border-color: #00000000;
+    font-weight: bold;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+.btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #ffffff22;
+    border-color: #00000000;
+    font-weight: bold;
+}
+.btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+.btn-secondary:disabled, .btn-secondary.disabled {
+    color: #fff;
+    background-color: #00000000;
+    border-color: #00000000;
+}
+
+/* Tweet Button */
+
+.tweetButton {
+    color: #fff;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    font-weight: bold;
+    width: 80%;
+}
+.tweetButton:hover {
+    color: #fff;
+    background-color: #2ca9f7;
+    border-color: #00000000;
+}
+.btn-check:focus + .tweetButton, .tweetButton:focus {
+    color: #fff;
+    background-color: #0e98ee;
+    border-color: #00000000;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+.btn-check:checked + .tweetButton, .btn-check:active + .tweetButton, .tweetButton:active, .tweetButton.active, .show > .tweetButton.dropdown-toggle {
+    color: #fff;
+    background-color: #0e98ee;
+    border-color: #00000000;
+}
+.btn-check:checked + .tweetButton:focus, .btn-check:active + .tweetButton:focus, .tweetButton:active:focus, .tweetButton.active:focus, .show > .tweetButton.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+.tweetButton:disabled, .tweetButton.disabled {
+    color: #fff;
+    background-color: #00000000;
+    border-color: #00000000;
+}
+
+/* SIDEBAR BARS */
+
+.sidebar-bars {
+    background-color: #192734;
+
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    
+    margin-bottom: 12px;
+
+    width: 100%;
+}
+
+.trending-item {
+    width: 105.8%;
+    line-height: 0.0;
+
+    padding-top: 8px;
+    padding-bottom: 1px;
+
+    margin-left: -20px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profile-item {
+    width: 105.8%;
+    line-height: 0.0;
+
+    padding-top: 12px;
+    padding-bottom: 1px;
+
+    margin-left: -20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profile-pic {
+    padding: 0px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+
+    text-align: center;
+}
+
+.profile-text {
+    padding-top: 14px;
+}
+
+.more-button {
+    color: #3399FF;
+
+    width: 105.8%;
+    line-height: 0.0;
+
+    padding-top: 12px;
+    padding-bottom: 6px;
+
+    margin-left: -20px;
+
+    margin-top: 0px;
+    margin-bottom: -1px;
+}
+
+/* SEARCH BAR */
+.searchTwitter {
+    background-color: #253341;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.offcanvas-body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.offcanvas-body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
